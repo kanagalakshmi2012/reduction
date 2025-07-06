@@ -19,11 +19,11 @@ This paper explores the impact of commit latency in etcd, a distributed key-valu
   Directed both the investigation and engineering efforts, emphasizing progress in distributed databases by introducing novel algorithmic approaches.
 
 **Relevance & Real-World Impact**
+* **Commit Latency Analysis:**
+Examined how commit latency in etcd, influenced by network delays and disk I/O, affected system responsiveness and overall performance as the cluster size grew.
 
-* **Kubernetes infrastructure optimization:**\
-    Enhances distributed key-value store performance by improving the write availability in distributed systems.
-* **Write availability Improvement:** \
-    need to add here
+* **WAL-Based Optimization:**
+Implemented Write-Ahead Log techniques to minimize consensus delays, improved throughput, and reduced latency while maintaining strong consistency in distributed key-value stores.
 * **Academic Recognition :** \
     need to add here
 * **Educational Impact:** \
