@@ -31,16 +31,16 @@ Implemented Write-Ahead Log techniques to minimize consensus delays, improved th
 
 **Experimental Results (Summary)**:
 
-  | Nodes | VR Replication Time (ms) | ZAB Replication Time (ms) | Improvement (%) |
-  |-------|--------------------------| --------------------------| ----------------|
-  | 3     | 6.0                      | 5.2                       | 13.3            |
-  | 5     | 8.1                      | 6.7                       | 17.3            |
-  | 7     | 10.5                     | 8.4                       | 20.0            |
-  | 9     | 13.0                     | 10.3                      | 20.8            |
-  | 11    | 15.6                     | 12.2                      | 21.8            |
+  | Nodes | SMR Latency (ms) | WAL Latency (ms) | Improvement (%) |
+  |-------|------------------| -----------------| ----------------|
+  | 3     | 14.2             | 2.7              | 81.0            |
+  | 5     | 18.4             | 3.0              | 83.7            |
+  | 7     | 22.3             | 3.3              | 85.2            |
+  | 9     | 26.1             | 3.6              | 86.2            |
+  | 11    | 30.0             | 4.0              | 86.7            |
 
 **Citation** \
-OPTIMIZING READ PERFORMANCE IN DISTRIBUTED systems USING Chrony Sync process. \
+EFFICIENT REDUCTION OF COMMIT DELAYS IN CONSENSUS BASED SYSTEMS \
 Kanagalakshmi Murugan \
 International Journal on Science and Technology \
 E-ISSN-2229-7677 \
