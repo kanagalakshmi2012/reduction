@@ -1,9 +1,9 @@
 # reduction
 **EFFICIENT REDUCTION OF COMMIT DELAYS IN CONSENSUS BASED SYSTEMS**
 * Author: Kanagalakshmi Murugan
-* Published In : International Journal on Science and Technology (IJSAT)
-* Publication Date: 06-2022
-* E-ISSN: 2229-7677
+* Published In : International Journal for Multidisciplinary Research (IJFMR)
+* Publication Date: 06-2024
+* E-ISSN: 2582-2160
 * Impact Factor: 9.88
 * Link:
 
@@ -42,8 +42,8 @@ Implemented Write-Ahead Log techniques to minimize consensus delays, improved th
 **Citation** \
 EFFICIENT REDUCTION OF COMMIT DELAYS IN CONSENSUS BASED SYSTEMS \
 Kanagalakshmi Murugan \
-International Journal on Science and Technology \
-E-ISSN-2229-7677 \
+International Journal for Multidisciplinary Research \
+E-ISSN-2582-2160 \
 License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
