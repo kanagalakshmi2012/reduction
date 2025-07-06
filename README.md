@@ -27,7 +27,7 @@ Implemented Write-Ahead Log techniques to minimize consensus delays, improved th
 * **Academic Recognition :** \
     Included in academic papers and technical analyses focusing on DNS query handling and performance improvements in distributed key-value stores.
 * **Educational Impact:** \
-    Findings were incorporated into university courses and research projects, supporting continuous academic dialogue on container orchestration and cloud system efficiency.
+    Findings were incorporated into courses and research projects, supporting continuous academic dialogue on container orchestration and cloud system efficiency.
 
 **Experimental Results (Summary)**:
 
