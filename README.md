@@ -4,7 +4,7 @@
 * Published In : International Journal for Multidisciplinary Research (IJFMR)
 * Publication Date: 06-2024
 * E-ISSN: 2582-2160
-* Impact Factor: 9.88
+* Impact Factor: 9.24
 * Link:
 
 **Abstract:**
