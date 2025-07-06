@@ -8,15 +8,15 @@
 * Link:
 
 **Abstract:**
-This paper investigates the replication time challenges in Viewstamped Replication (VR), a consensus protocol widely used in distributed systems for ensuring consistency and fault tolerance. As the number of nodes increases, VR suffers from high replication delays due to its quorum-based communication model. These delays negatively impact system throughput and responsiveness, especially in performance-critical or real-time environments. To address this, the paper proposes an alternative approach using the ZAB (ZooKeeper Atomic Broadcast) protocol to reduce replication time. The solution aims to maintain VR’s reliability while improving scalability and operational efficiency in large distributed systems.
+This paper explores the impact of commit latency in etcd, a distributed key-value store that uses the Raft consensus algorithm and State Machine Replication (SMR) to ensure consistency. While SMR provides strong fault tolerance, it introduces significant latency as system size increases due to quorum-based communication. Commit latency, affected by factors like network delays and disk I/O, directly impacts system responsiveness. To address this, the study proposes optimizations using a Write-Ahead Log (WAL) mechanism to reduce delay in consensus without sacrificing consistency. The findings aim to enhance etcd’s performance in large-scale, latency-sensitive environments.
 
 **Key Contributions:**
 * Algorithm Development
-  Designed and optimized Chrony sync time algorithm to achieve high write availability in distributed systems.
+  Optimized Write Ahead Log latency algorithm to achieve high performnace in etcd environment.
 * Performance Comparison
-  Conducted bench marking between NTP Sync time and Chrony sync time.
+  Conducted bench marking between State Machine Replication latencyc and Write Ahead Log latency. 
 * Reserach Leadership
-  Led the research and technical implementation , focusing on advancing distributed database through algorithm innovation.
+  Directed both the investigation and engineering efforts, emphasizing progress in distributed databases by introducing novel algorithmic approaches.
 
 **Relevance & Real-World Impact**
 
