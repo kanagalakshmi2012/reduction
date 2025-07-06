@@ -25,9 +25,9 @@ Examined how commit latency in etcd, influenced by network delays and disk I/O, 
 * **WAL-Based Optimization:**\
 Implemented Write-Ahead Log techniques to minimize consensus delays, improved throughput, and reduced latency while maintaining strong consistency in distributed key-value stores.
 * **Academic Recognition :** \
-    need to add here
+    Included in academic papers and technical analyses focusing on DNS query handling and performance improvements in distributed key-value stores.
 * **Educational Impact:** \
-    need to add here \
+    Findings were incorporated into university courses and research projects, supporting continuous academic dialogue on container orchestration and cloud system efficiency.
 
 **Experimental Results (Summary)**:
 
