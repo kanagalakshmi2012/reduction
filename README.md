@@ -5,7 +5,7 @@
 * Publication Date: 06-2024
 * E-ISSN: 2582-2160
 * Impact Factor: 9.24
-* Link:
+
 
 **Abstract:**
 This paper explores the impact of commit latency in etcd, a distributed key-value store that uses the Raft consensus algorithm and State Machine Replication (SMR) to ensure consistency. While SMR provides strong fault tolerance, it introduces significant latency as system size increases due to quorum-based communication. Commit latency, affected by factors like network delays and disk I/O, directly impacts system responsiveness. To address this, the study proposes optimizations using a Write-Ahead Log (WAL) mechanism to reduce delay in consensus without sacrificing consistency. The findings aim to enhance etcd’s performance in large-scale, latency-sensitive environments.
