@@ -10,6 +10,7 @@ import (
 type Command struct {
 	Key   string
 	Value string
+
 }
 
 type WAL struct {
